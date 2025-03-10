@@ -1,0 +1,79 @@
+/* So for an interesting page i added the red line to divide the section visualy */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+/* Navbar back styling for the behind the text */
+.navbar {
+    background-color: #1f1f1f;
+    padding: 15px;
+    text-align: center;
+    top: 0;
+    z-index: 100;
+}
+
+/* Nav bar styling for the text */
+.navbar a {
+    color: #f54242;
+    margin: 0 15px;
+    font-weight: bold;
+    
+}
+
+/* hover effect for the links */
+.navbar a:hover {
+    color: #ffffff;
+}
+
+
+h1 {
+    text-align: center;
+    color: #f54242;
+    margin-top: 20px;
+}
+
+
+h2 {
+    color: #f54242;
+    margin-top: 40px;
+    border-bottom: 2px solid #f54242;
+    padding-bottom: 5px;
+}
+
+
+ul {
+    margin-left: 30px;
+}
+
+/* This one was difficult as i wanted a clean button but it was my first time trying it so i used online sources for this. */
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 30px auto;
+    background-color: #f54242;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+/* Button hover effect for the link button so when the cursor goes on top it changes color to add a hover effect. */
+.button-link:hover {
+    background-color: #c32e2e;
+}
+
+
+p {
+    margin: 20px 0;
+}
+
+
+h3 {
+	color: #f54242;
+}
