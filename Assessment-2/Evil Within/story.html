@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Storyline</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bg-music" loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="toggleMusic()">Play / Pause Music</button>
+
+<script>
+  const audio = document.getElementById("bg-music");
+
+  function toggleMusic() {
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  }
+</script>
+
+  <header>
+    <h1>The Evil Within</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="story.html">Storyline</a></li>
+        <li><a href="characters.html">Characters</a></li>
+        <li><a href="gameplay.html">Gameplay</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Storyline</h2>
+      <p>The story begins with Detective Sebastian Castellanos and his partners responding to a distress call at Beacon Mental Hospital. Upon arriving, they discover a massacre — patients and staff are brutally murdered. But what starts as a crime scene investigation quickly descends into horror.
+
+Sebastian is pulled into a nightmarish alternate reality ruled by a malevolent force known as Ruvik. Time and space lose all meaning, and Sebastian is forced to navigate a hellish landscape filled with traps, monsters, and twisted memories. As he uncovers more about the mysterious STEM system that links minds together, he realizes he's not just fighting to escape — he’s fighting to retain his sanity.
+
+Driven by guilt and grief from past trauma, Sebastian’s journey through the decaying world becomes a psychological trial. Every enemy and distorted setting reflects deeper emotional scars. In the end, what’s real and what’s illusion becomes impossible to tell.</p>
+    </section>
+	<img src="evil-within-bg-2.jpg" alt="The Evil Within Cover" width="500">
+  </main>
+  <footer>
+    <p>&copy; 2025 Fan Site for The Evil Within</p>
+  </footer>
+</body>
+</html>
